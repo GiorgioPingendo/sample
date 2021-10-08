@@ -1,12 +1,6 @@
-# inkodex website
-[link to Pingendo](https://pingendo5.netlify.app/pingendo/inkodex/main)
+# Sample Website
+[link to Pingendo](https://pingendo5.netlify.app/GiorgioPingendo/sample/main)
 
-[link to Site](http://inkodex.netlify.app)
+[link to Github](https://github.com/GiorgioPingendo/sample)
 
-
-
-[blog eleventy && sass](https://www.belter.io/eleventy-sass-workflow/)
-
-
-To develop
-yarn start
+[link to Stackblitz](https://stackblitz.com/github/GiorgioPingendo/sample)
