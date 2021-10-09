@@ -1,5 +1,5 @@
 # Sample Website
-[link to Pingendo](https://pingendo5.netlify.app/GiorgioPingendo/sample/main)
+[link to Pingendo](https://p5.pingendo.com/GiorgioPingendo/sample/main)
 
 [link to Github](https://github.com/GiorgioPingendo/sample)
 
