@@ -1,4 +1,4 @@
 assets: assets/
 input: src/
 plugins: https://github.com/Pingendo/pingendo-bootstrap/blob/master/pingendo.yml
-templates: templates/
+templates: templates4/
