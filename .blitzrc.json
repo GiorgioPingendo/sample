@@ -1,4 +1,4 @@
 {
   "runTurboOnBoot": true,
-  "startCommand": "npm start serve"
+  "startCommand": "npm run serve"
 }
