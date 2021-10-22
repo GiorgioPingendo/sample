@@ -9,6 +9,7 @@
     "@11ty/eleventy": "^0.12.1"
   },
   "scripts": {
+    "post-install" : "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve",
     "build-production": "npm run build"
