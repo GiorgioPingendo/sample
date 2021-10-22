@@ -1,0 +1,4 @@
+{
+  "runTurboOnBoot": true,
+  "startCommand": "yarn serve"
+}
