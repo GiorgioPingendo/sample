@@ -3,5 +3,4 @@ input: src/
 plugins: >-
   https://github.com/Pingendo/pingendo-bootstrap/master/ 
   https://github.com/GiorgioPingendo/pingendo-bootstrap/master/ 
-  https://github.com/GiorgioPingendo2/pingendo-bootstrap/master/
 templates: templates/
