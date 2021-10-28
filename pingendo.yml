@@ -2,5 +2,5 @@ assets: src/assets/
 input: src/
 plugins: >-
   https://github.com/Pingendo/pingendo-bootstrap/
-  https://github.com/Pingendo/pingendo-bootstrap/
+  https://github.com/GiorgioPingendo/pingendo-bootstrap/
 templates: templates/
