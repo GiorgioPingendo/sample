@@ -1,6 +1,6 @@
 assets: src/assets/
 input: src/
 plugins: >-
-  https://github.com/Pingendo/pingendo-bootstrap/master/ 
-  https://github.com/GiorgioPingendo/pingendo-bootstrap/master/ 
+  https://github.com/Pingendo/pingendo-bootstrap
+  https://github.com/GiorgioPingendo/pingendo-bootstrap
 templates: templates/
