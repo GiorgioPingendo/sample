@@ -1,5 +1,6 @@
 ---
 layout: templates/template.html
-name: My name
+name: My card
+tag : card
 ---
 
