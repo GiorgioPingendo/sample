@@ -1,23 +1,38 @@
 ---
-tag : 
+tag:
   - card
   - search
 _fields:
-  - label: field1_card
+  - label: name
     widget: string
-    name: field1_card
-  - label: field2_card
+    name: name
+  - label: location
     widget: string
-    name: field2_card
+    name: location
 ---
-
-      <html>
-      <head>
+<html lang="en"><head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
       </head>
-      <body></body>
-      </html>
+<body>
+      
+<div class="py-5 text-center text-white h-100 align-items-center d-flex pi-draggable" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+      <div class="container py-5">
+        <div class="row">
+          <div class="mx-auto col-lg-8 col-md-10">
+            <h1 class="display-3 mb-4" pi-bind="name">A wonderful serenity</h1>
+            <p class="lead mb-5" pi-bind="location" pi-selection="true" contenteditable="true">
+              Has taken possession of my entire soul, like these sweet mornings
+              of spring which I enjoy with my whole heart. I am alone, and feel
+              the charm of existence.
+            </p>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+</body></html>
