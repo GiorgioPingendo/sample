@@ -9,6 +9,9 @@ _fields:
   - label: location
     widget: string
     name: location
+  - label: description
+    widget: string
+    name: desc
 ---
 <html lang="en"><head>
         <meta charset="utf-8">
@@ -23,8 +26,10 @@ _fields:
       <div class="container py-5">
         <div class="row">
           <div class="mx-auto col-lg-8 col-md-10">
-            <h1 class="display-3 mb-4" pi-bind="name">A wonderful serenity</h1>
-            <p class="lead mb-5" pi-bind="location" pi-selection="true" contenteditable="true">
+            <h2 class="pi-draggable" contenteditable="true" pi-bind="name" pi-selection="true">
+      Heading 2 <small class="text-muted" pi-bind="location">subtitle</small>
+    </h2>
+            <p class="lead mb-5" pi-bind="desc">
               Has taken possession of my entire soul, like these sweet mornings
               of spring which I enjoy with my whole heart. I am alone, and feel
               the charm of existence.
@@ -35,4 +40,5 @@ _fields:
         </div>
       </div>
     </div>
+
 </body></html>
