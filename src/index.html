@@ -17,7 +17,7 @@ _fields:
     </style>
     <style></style>
   </head>
-<body>
+<body contenteditable="true">
     <!-- navbar  offcanvas mobile -->
     <nav class="navbar navbar-light bg-transparent  d-md-none">
       <div class="container-fluid">
@@ -98,86 +98,18 @@ _fields:
               <a class="nav-link " href="/contatti/">Contatti</a>
             </li>
           </ul>
-        </div>
+        <p pi-flag="transient-block"></p></div>
       </div>
     </nav>
     <!-- end navbar -->
 
 
-    <div pi-for="let c of card" contenteditable="true">
-
-      <a class="hover-primary" href="/impaginati" contenteditable="true" pi-bind="\" pi-selection="true">   Link a card </a>
-
-    </div>
+    
 
 
-    <div class="py-5 px-3 cover d-flex align-items-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-            <p pi-flag="transient-block"></p>
-            <p></p>
-            <p></p>
-            <p pi-flag="transient-block"></p>
-            <p></p>
-            <h1 class="display-1 text-nowrap mb-0">
-              <a class="hover-primary" href="/impaginati">Impaginati</a>
-            </h1>
-            <h1 class="pi-draggable">Heading 1</h1>
-            <p class="mb-4">Lorem ipsum</p>
-            <p></p>
-            <p pi-flag="transient-block"></p>
-            <h1 class="display-1 text-nowrap mb-0">
-              <a class="hover-secondary" href="/iconografia">Iconografia</a>
-            </h1>
-            <p class="mb-4">Lorem ipsum</p>
-            <h1 class="display-1 text-nowrap mb-0">
-              <a class="hover-tertiary" href="/archiviazione">Archiviazione</a>
-            </h1>
-            <p class="mb-4">Lorem ipsum</p>
-          </div>
-          <div class="col-md-6 p-3 text-center text-white"></div>
-        </div>
-      </div>
-    </div>
-    <div class="text-justify   py-5 bg-light">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-5 ">
-            <p contenteditable="true" class="bg-primary">
-              La missione di Inkodex è abbattere il tempo lungo e a basso valore
-              aggiunto delle attività ripetitive necessarie in alcune parti dei
-              processi editoriali.
-            </p>
-            <a class="btn btn-primary pi-draggable"><i class="fa fa-download fa-fw"></i>&nbsp;Left icon
-            </a>
-            <p>
-              Per farlo abbiamo sviluppato una efficiente combinazione di
-              professionisti editoriali esperti edi intelligenza artificiale,
-              per fornire soluzioni semplici e veloci per gli editori e i liberi
-              professionisti di tutta Europa.
-            </p>
-            <p>
-              Con questi strumenti si abbassano i costi di prestampa e ci si può
-              dedicare a fare meglio le attività più complesse e creative
-            </p>
-          </div>
-          <div class="col-md-6"></div>
-        </div>
-      </div>
-    </div>
-    <div class="text-justify py-5 bg-primary">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-white text-center">
-            <h2 class="mb-3 ">
-              «Fare le cose vecchie in modo nuovo, questa è innovazione»
-            </h2>
-            <p>Joseph Alois Schumpeter, economista</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    
+    
+    
     <!-- <div class="text-justify bg-light py-5 background-1" >
     <div class="container">
       <div class="row  ">
@@ -281,47 +213,7 @@ _fields:
       </div>
     </div>
   </div> -->
-    <div class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 p-4 text-center">
-            <i class="d-block fab fa-amazon mb-2 text-muted fa-3x"></i>
-            <p class="mb-3">
-              <i>"I throw myself down among the tall grass by the trickling
-                stream; and, as I lie close to the earth, a thousand unknown
-                plants are noticed by me: when I hear the buzz of the little
-                world among the stalks."</i>
-            </p>
-            <p class="mb-1"><b>J. W. Goethe</b></p>
-            <p class="mb-0">CEO and founder</p>
-          </div>
-          <div class="col-lg-4 col-md-4 p-4 text-center">
-            <i class="d-block fab fa-paypal mb-2 text-muted fa-3x"></i>
-            <p class="mb-3">
-              <i>"Oh, would I could describe these conceptions, could impress
-                upon paper all that is living so full and warm within me, that
-                it might be the mirror of my soul, as my soul is the mirror of
-                the infinite God!"</i>
-            </p>
-            <p class="mb-1"><b>G. W. John</b></p>
-            <p class="mb-0">Co-founder</p>
-          </div>
-          <div class="col-md-4 p-4 text-center">
-            <i class="d-block fab fa-maxcdn mb-2 text-muted fa-3x"></i>
-            <p class="mb-3">
-              <i>"I lie close to the earth, a thousand unknown plants are
-                noticed by me: when I hear the buzz of the little world among
-                the stalks, and grow familiar with the countless indescribable
-                forms of the insects and flies."</i>
-            </p>
-            <p class="mb-1">
-              <b>J. G. Wolf</b>
-            </p>
-            <p class="mb-0">Evangelist</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    
     <!-- <div class="py-4 bg-light">
     <div class="container">
       <div class="row">
@@ -332,61 +224,48 @@ _fields:
     </div>
   </div> -->
     <!-- footer-->
-    <div class="py-4 bg-light">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-lg-3 col-6">
-                <ul class="list-unstyled">
-                  <li class="mb-1"><a href="#">Home</a></li>
-                  <li class="mb-1"><a href="#">Chi siamo</a></li>
-                  <li class="mb-1"><a href="#">Contatti</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-3 col-6">
-                <ul class="list-unstyled">
-                  <li class="mb-1"><a href="/impaginati">Impaginati</a></li>
-                  <li class="mb-1"><a href="/iconografia">Iconografia</a></li>
-                  <li class="mb-1">
-                    <a href="/archiviazione">Archiviazione</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <!-- <h5> <b>About</b> </h5>
-          <p class="mb-0"> I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls.</p> -->
-          </div>
-          <div class="col-lg-3 col-md-6 text-end">
-            <img src="/assets/logo.png" style="max-width: 200px" class="img-fluid">
-            <p class="mb-0 mt-3">
-              <small>© 2021 Inkodex Srl &nbsp;|&nbsp; Privacy</small>
-            </p>
-            <!-- <h5> <b>Follow us</b> </h5>
-          <div class="row">
-            <div class="col-md-12 d-flex align-items-center justify-content-between my-2"> <a href="#">
-                <i class="d-block fa fa-facebook-official text-muted fa-lg mr-2"></i>
-              </a> <a href="#">
-                <i class="d-block fa fa-instagram text-muted fa-lg mx-2"></i>
-              </a> <a href="#">
-                <i class="d-block fa fa-google-plus-official text-muted fa-lg mx-2"></i>
-              </a> <a href="#">
-                <i class="d-block fa fa-pinterest-p text-muted fa-lg mx-2"></i>
-              </a> <a href="#">
-                <i class="d-block fa fa-reddit text-muted fa-lg mx-2"></i>
-              </a> <a href="#">
-                <i class="d-block fa fa-twitter text-muted fa-lg ml-2"></i>
-              </a> </div>
-          </div> -->
-          </div>
-        </div>
+    <div class="card text-center pi-draggable" pi-selection="true">
+      <div class="card-header">Featured</div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
+      <div class="card-footer text-muted">2 days ago</div>
+    </div><div class="py-4 bg-light">
+      
     </div>
     <!-- end footer -->
     <script crossorigin="anonymous" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
