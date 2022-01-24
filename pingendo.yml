@@ -1,6 +1,14 @@
 assets: src/assets/
 input: src/
-plugins: >-
-  https://github.com/Pingendo/pingendo-bootstrap
-  https://github.com/GiorgioPingendo/pingendo-bootstrap
+plugins: https://github.com/Pingendo/pingendo-bootstrap
+showCode: true
+showDatabind: true
+showGit: true
+showLSidebar: true
+showLayout: true
+showPage: true
+showRSidebar: true
+showSettings: true
+showToolbar: true
+showTree: true
 templates: templates/
