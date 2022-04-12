@@ -1,5 +1,6 @@
 assets: src/assets/
 input: src/
+<<<<<<< Updated upstream
 plugins: https://github.com/Pingendo/pingendo-bootstrap
 showCode: true
 showDatabind: true
@@ -11,4 +12,14 @@ showRSidebar: true
 showSettings: true
 showToolbar: true
 showTree: true
+=======
+plugins: 
+  - 
+    branch: master
+    name: "Bootstrap 5.1.3"
+    url: "https://github.com/Pingendo/pingendo-bootstrap"
+>>>>>>> Stashed changes
 templates: templates/
+
+
+
